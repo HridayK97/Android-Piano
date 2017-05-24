@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#000000"
+    android:gravity="top|center"
+    tools:context=".MainActivity">
+
+
+
+    <HorizontalScrollView
+        android:id="@+id/scrollpiano"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        style="@style/firstwhitekey"
+        android:id="@+id/w1"
+
+
+
+        />
+
+    <Button
+        style="@style/whitekey"
+        android:id="@+id/w2"
+        android:layout_toRightOf="@id/w1"
+
+
+        />
+    <Button
+        style="@style/whitekey"
+        android:id="@+id/w3"
+        android:layout_toRightOf="@id/w2"
+
+
+        />
+    <Button
+        style="@style/whitekey"
+        android:id="@+id/w4"
+        android:layout_toRightOf="@id/w3"
+
+
+        />
+    <Button
+        style="@style/whitekey"
+        android:id="@+id/w5"
+        android:layout_toRightOf="@id/w4"
+
+
+        />
+    <Button
+        style="@style/whitekey"
+        android:id="@+id/w6"
+        android:layout_toRightOf="@id/w5"
+
+
+        />
+    <Button
+        style="@style/whitekey"
+        android:id="@+id/w7"
+        android:layout_toRightOf="@id/w6"
+
+
+        />
+        <Button
+            style="@style/whitekey"
+            android:id="@+id/w8"
+            android:layout_toRightOf="@id/w7"
+
+
+            />
+        <Button
+            style="@style/whitekey"
+            android:id="@+id/w9"
+            android:layout_toRightOf="@id/w8"
+
+
+            />
+        <Button
+            style="@style/whitekey"
+            android:id="@+id/w10"
+            android:layout_toRightOf="@id/w9"
+
+
+            />
+        <Button
+            style="@style/whitekey"
+            android:id="@+id/w11"
+            android:layout_toRightOf="@id/w10"
+
+
+            />
+        <Button
+            style="@style/whitekey"
+            android:id="@+id/w12"
+            android:layout_toRightOf="@id/w11"
+
+
+            />
+        <Button
+            style="@style/whitekey"
+            android:id="@+id/w13"
+            android:layout_toRightOf="@id/w12"
+
+
+            />
+        <Button
+            style="@style/whitekey"
+            android:id="@+id/w14"
+            android:layout_toRightOf="@id/w13"
+
+
+            />
+        <Button
+            style="@style/whitekey"
+            android:id="@+id/w15"
+            android:layout_toRightOf="@id/w14"
+
+
+            />
+        <Button
+            style="@style/whitekey"
+            android:id="@+id/w16"
+            android:layout_toRightOf="@id/w15"
+
+
+            />
+        <Button
+            style="@style/whitekey"
+            android:id="@+id/w17"
+            android:layout_toRightOf="@id/w16"
+
+
+            />
+        <Button
+            style="@style/whitekey"
+            android:id="@+id/w18"
+            android:layout_toRightOf="@id/w17"
+            />
+        <Button
+            style="@style/whitekey"
+            android:id="@+id/w19"
+            android:layout_toRightOf="@id/w18"
+            />
+        <Button
+            style="@style/whitekey"
+            android:id="@+id/w20"
+            android:layout_toRightOf="@id/w19"
+            />
+        <Button
+            style="@style/whitekey"
+            android:id="@+id/w21"
+            android:layout_toRightOf="@id/w20"
+            />
+        <Button
+            style="@style/whitekey"
+            android:id="@+id/w22"
+            android:layout_toRightOf="@id/w21"
+            />
+        <Button
+            style="@style/whitekey"
+            android:id="@+id/w23"
+            android:layout_toRightOf="@id/w22"
+            />
+        <Button
+            style="@style/whitekey"
+            android:id="@+id/w24"
+            android:layout_toRightOf="@id/w23"
+            />
+        <Button
+            style="@style/whitekey"
+            android:id="@+id/w25"
+            android:layout_toRightOf="@id/w24"
+            />
+        <Button
+            style="@style/whitekey"
+            android:id="@+id/w26"
+            android:layout_toRightOf="@id/w25"
+            />
+        <Button
+            style="@style/whitekey"
+            android:id="@+id/w27"
+            android:layout_toRightOf="@id/w26"
+            />
+        <Button
+            style="@style/whitekey"
+            android:id="@+id/w28"
+            android:layout_toRightOf="@id/w27"
+            />
+        <Button
+            style="@style/whitekey"
+            android:id="@+id/w29"
+            android:layout_toRightOf="@id/w28"
+            />
+        <Button
+            style="@style/whitekey"
+            android:id="@+id/w30"
+            android:layout_toRightOf="@id/w29"
+            />
+        <Button
+            style="@style/whitekey"
+            android:id="@+id/w31"
+            android:layout_toRightOf="@id/w30"
+            />
+        <Button
+            style="@style/whitekey"
+            android:id="@+id/w32"
+            android:layout_toRightOf="@id/w31"
+            />
+        <Button
+            style="@style/whitekey"
+            android:id="@+id/w33"
+            android:layout_toRightOf="@id/w32"
+            />
+        <Button
+            style="@style/whitekey"
+            android:id="@+id/w34"
+            android:layout_toRightOf="@id/w33"
+            />
+        <Button
+            style="@style/whitekey"
+            android:id="@+id/w35"
+            android:layout_toRightOf="@id/w34"
+            />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <Button
+        style="@style/blackkey"
+        android:id="@+id/b1"
+        android:layout_toRightOf="@id/w1"
+
+        />
+    <Button
+        style="@style/blackkey"
+        android:id="@+id/b2"
+        android:layout_toRightOf="@id/w2"
+
+        />
+    <Button
+        style="@style/blackkey"
+        android:id="@+id/b3"
+        android:layout_toRightOf="@id/w4"
+
+        />
+    <Button
+        style="@style/blackkey"
+        android:id="@+id/b4"
+        android:layout_toRightOf="@id/w5"
+
+        />
+    <Button
+        style="@style/blackkey"
+        android:id="@+id/b5"
+        android:layout_toRightOf="@id/w6"
+
+        />
+        <Button
+            style="@style/blackkey"
+            android:id="@+id/b6"
+            android:layout_toRightOf="@id/w8"
+            />
+        <Button
+            style="@style/blackkey"
+            android:id="@+id/b7"
+            android:layout_toRightOf="@id/w9"
+            />
+        <Button
+            style="@style/blackkey"
+            android:id="@+id/b8"
+            android:layout_toRightOf="@id/w11"
+            />
+        <Button
+            style="@style/blackkey"
+            android:id="@+id/b9"
+            android:layout_toRightOf="@id/w12"
+            />
+        <Button
+            style="@style/blackkey"
+            android:id="@+id/b10"
+            android:layout_toRightOf="@id/w13"
+            />
+        <Button
+            style="@style/blackkey"
+            android:id="@+id/b11"
+            android:layout_toRightOf="@id/w15"
+            />
+        <Button
+            style="@style/blackkey"
+            android:id="@+id/b12"
+            android:layout_toRightOf="@id/w16"
+            />
+        <Button
+            style="@style/blackkey"
+            android:id="@+id/b13"
+            android:layout_toRightOf="@id/w18"
+            />
+        <Button
+            style="@style/blackkey"
+            android:id="@+id/b14"
+            android:layout_toRightOf="@id/w19"
+            />
+        <Button
+            style="@style/blackkey"
+            android:id="@+id/b15"
+            android:layout_toRightOf="@id/w20"
+            />
+        <Button
+            style="@style/blackkey"
+            android:id="@+id/b16"
+            android:layout_toRightOf="@id/w22"
+            />
+        <Button
+            style="@style/blackkey"
+            android:id="@+id/b17"
+            android:layout_toRightOf="@id/w23"
+            />
+        <Button
+            style="@style/blackkey"
+            android:id="@+id/b18"
+            android:layout_toRightOf="@id/w25"
+            />
+        <Button
+            style="@style/blackkey"
+            android:id="@+id/b19"
+            android:layout_toRightOf="@id/w26"
+            />
+        <Button
+            style="@style/blackkey"
+            android:id="@+id/b20"
+            android:layout_toRightOf="@id/w27"
+            />
+        <Button
+            style="@style/blackkey"
+            android:id="@+id/b21"
+            android:layout_toRightOf="@id/w29"
+            />
+        <Button
+            style="@style/blackkey"
+            android:id="@+id/b22"
+            android:layout_toRightOf="@id/w30"
+            />
+        <Button
+            style="@style/blackkey"
+            android:id="@+id/b23"
+            android:layout_toRightOf="@id/w32"
+            />
+        <Button
+            style="@style/blackkey"
+            android:id="@+id/b24"
+            android:layout_toRightOf="@id/w33"
+            />
+        <Button
+            style="@style/blackkey"
+            android:id="@+id/b25"
+            android:layout_toRightOf="@id/w34"
+            />
+
+
+
+
+        <TextView
+            style="@style/keytext3"
+            android:id="@+id/tc3"
+            android:text="C3"
+            android:layout_toLeftOf="@id/w2"
+            android:stateListAnimator="@null"
+
+            />
+        <TextView
+            style="@style/keytext3"
+            android:text="D3"
+            android:id="@+id/td3"
+            android:layout_toLeftOf="@id/w3"
+            />
+        <TextView
+            style="@style/keytext3"
+            android:text="E3"
+            android:id="@+id/te3"
+            android:layout_toLeftOf="@id/w4"
+            />
+
+        <TextView
+            style="@style/keytext3"
+            android:text="F3"
+            android:id="@+id/tf3"
+            android:layout_toLeftOf="@id/w5"
+            />
+
+        <TextView
+            style="@style/keytext3"
+            android:text="G3"
+            android:id="@+id/tg3"
+            android:layout_toLeftOf="@id/w6"
+            />
+
+        <TextView
+            style="@style/keytext3"
+            android:text="A3"
+            android:id="@+id/ta3"
+            android:layout_toLeftOf="@id/w7"
+            />
+
+        <TextView
+            style="@style/keytext3"
+            android:text="B3"
+            android:id="@+id/tb3"
+            android:layout_toLeftOf="@id/w8"
+            />
+
+
+
+
+
+
+
+        <TextView
+            style="@style/keytext4"
+            android:id="@+id/tc4"
+            android:text="C4"
+            android:layout_toLeftOf="@id/w9"
+            />
+        <TextView
+            style="@style/keytext4"
+            android:text="D4"
+            android:id="@+id/td4"
+            android:layout_toLeftOf="@id/w10"
+            />
+        <TextView
+            style="@style/keytext4"
+            android:text="E4"
+            android:id="@+id/te4"
+            android:layout_toLeftOf="@id/w11"
+            />
+
+        <TextView
+            style="@style/keytext4"
+            android:text="F4"
+            android:id="@+id/tf4"
+            android:layout_toLeftOf="@id/w12"
+            />
+
+        <TextView
+            style="@style/keytext4"
+            android:text="G4"
+            android:id="@+id/tg4"
+            android:layout_toLeftOf="@id/w13"
+            />
+
+        <TextView
+            style="@style/keytext4"
+            android:text="A4"
+            android:id="@+id/ta4"
+            android:layout_toLeftOf="@id/w14"
+            />
+
+        <TextView
+            style="@style/keytext4"
+            android:text="B4"
+            android:id="@+id/tb4"
+            android:layout_toLeftOf="@id/w15"
+            />
+
+
+
+
+
+        <TextView
+            style="@style/keytext5"
+            android:id="@+id/tc5"
+            android:text="C5"
+            android:layout_toLeftOf="@id/w16"
+            />
+        <TextView
+            style="@style/keytext5"
+            android:text="D5"
+            android:id="@+id/td5"
+            android:layout_toLeftOf="@id/w17"
+            />
+        <TextView
+            style="@style/keytext5"
+            android:text="E5"
+            android:id="@+id/te5"
+            android:layout_toLeftOf="@id/w18"
+            />
+
+        <TextView
+            style="@style/keytext5"
+            android:text="F5"
+            android:id="@+id/tf5"
+            android:layout_toLeftOf="@id/w19"
+            />
+
+        <TextView
+            style="@style/keytext5"
+            android:text="G5"
+            android:id="@+id/tg5"
+            android:layout_toLeftOf="@id/w20"
+            />
+
+        <TextView
+            style="@style/keytext5"
+            android:text="A5"
+            android:id="@+id/ta5"
+            android:layout_toLeftOf="@id/w21"
+            />
+
+        <TextView
+            style="@style/keytext5"
+            android:text="B5"
+            android:id="@+id/tb5"
+            android:layout_toLeftOf="@id/w22"
+            />
+
+
+
+        <TextView
+            style="@style/keytext6"
+            android:id="@+id/tc6"
+            android:text="C6"
+            android:layout_toLeftOf="@id/w23"
+            />
+        <TextView
+            style="@style/keytext6"
+            android:text="D6"
+            android:id="@+id/td6"
+            android:layout_toLeftOf="@id/w24"
+            />
+        <TextView
+            style="@style/keytext6"
+            android:text="E6"
+            android:id="@+id/te6"
+            android:layout_toLeftOf="@id/w25"
+            />
+
+        <TextView
+            style="@style/keytext6"
+            android:text="F6"
+            android:id="@+id/tf6"
+            android:layout_toLeftOf="@id/w26"
+            />
+
+        <TextView
+            style="@style/keytext6"
+            android:text="G6"
+            android:id="@+id/tg6"
+            android:layout_toLeftOf="@id/w27"
+            />
+
+        <TextView
+            style="@style/keytext6"
+            android:text="A6"
+            android:id="@+id/ta6"
+            android:layout_toLeftOf="@id/w28"
+            />
+
+        <TextView
+            style="@style/keytext6"
+            android:text="B6"
+            android:id="@+id/tb6"
+            android:layout_toLeftOf="@id/w29"
+            />
+
+
+
+
+        <TextView
+            style="@style/keytext7"
+            android:id="@+id/tc7"
+            android:text="C7"
+            android:layout_toLeftOf="@id/w30"
+            />
+        <TextView
+            style="@style/keytext7"
+            android:text="D7"
+            android:id="@+id/td7"
+            android:layout_toLeftOf="@id/w31"
+            />
+        <TextView
+            style="@style/keytext7"
+            android:text="E7"
+            android:id="@+id/te7"
+            android:layout_toLeftOf="@id/w32"
+            />
+
+        <TextView
+            style="@style/keytext7"
+            android:text="F7"
+            android:id="@+id/tf7"
+            android:layout_toLeftOf="@id/w33"
+            />
+
+        <TextView
+            style="@style/keytext7"
+            android:text="G7"
+            android:id="@+id/tg7"
+            android:layout_toLeftOf="@id/w34"
+            />
+
+        <TextView
+            style="@style/keytext7"
+            android:text="A7"
+            android:id="@+id/ta7"
+            android:layout_toLeftOf="@id/w35"
+            />
+
+        <TextView
+            style="@style/keytextendkey"
+            android:text="B7"
+            android:id="@+id/tb7"
+            android:layout_toRightOf="@id/w34"
+            />
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
+    </HorizontalScrollView>
+
+    <!--  <Button
+          android:layout_width="40dp"
+          android:layout_height="100dp"
+          android:layout_marginTop="100dp"
+          android:background="@drawable/selector"
+          android:id="@+id/button4"
+          android:layout_toRightOf="@id/button3"
+          android:layout_marginLeft="0dp"
+
+          />
+      <Button
+          android:layout_width="45dp"
+          android:layout_height="150dp"
+          android:layout_marginTop="100dp"
+          android:background="@drawable/wselector"
+          android:id="@+id/button5"
+          android:layout_toRightOf="@id/button4"
+          android:layout_marginLeft="0dp"
+
+
+         />
+      <Button
+          android:layout_width="45dp"
+          android:layout_height="150dp"
+          android:layout_marginTop="100dp"
+          android:background="@drawable/wselector"
+          android:id="@+id/button6"
+          android:layout_toRightOf="@id/button5"
+          android:layout_marginLeft="1dp"
+
+
+          />
+      <Button
+          android:layout_width="40dp"
+          android:layout_height="100dp"
+          android:layout_marginTop="100dp"
+          android:background="@drawable/selector"
+          android:id="@+id/button7"
+          android:layout_toRightOf="@id/button6"
+          android:layout_marginLeft="0dp"
+
+          />
+
+      <Button
+          android:layout_width="45dp"
+          android:layout_height="150dp"
+          android:layout_marginTop="100dp"
+          android:background="@drawable/wselector"
+          android:id="@+id/button8"
+          android:layout_toRightOf="@id/button7"
+          android:layout_marginLeft="1dp"
+
+
+          />
+      <Button
+          android:layout_width="40dp"
+          android:layout_height="100dp"
+          android:layout_marginTop="100dp"
+          android:background="@drawable/selector"
+          android:id="@+id/button9"
+          android:layout_toRightOf="@id/button8"
+          android:layout_marginLeft="0dp"
+
+          />
+      <Button
+          android:layout_width="45dp"
+          android:layout_height="150dp"
+          android:layout_marginTop="100dp"
+          android:background="@drawable/wselector"
+          android:id="@+id/button10"
+          android:layout_toRightOf="@id/button9"
+          android:layout_marginLeft="1dp"
+
+
+          />
+      <Button
+          android:layout_width="40dp"
+          android:layout_height="100dp"
+          android:layout_marginTop="100dp"
+          android:background="@drawable/selector"
+          android:id="@+id/button11"
+          android:layout_toRightOf="@id/button10"
+          android:layout_marginLeft="0dp"
+
+          />
+      <Button
+          android:layout_width="45dp"
+          android:layout_height="150dp"
+          android:layout_marginTop="100dp"
+          android:background="@drawable/wselector"
+          android:id="@+id/button12"
+          android:layout_toRightOf="@id/button11"
+          android:layout_marginLeft="1dp"
+
+
+          />
+-->
+
+  <!--  <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/next"
+        android:onClick="next"
+        android:textAlignment="center"
+        android:layout_marginLeft="37dp"
+        android:layout_marginStart="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/octave" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prev"
+        android:textAlignment="center"
+        android:onClick="prev"
+        android:id="@+id/previous"
+        android:layout_marginRight="37dp"
+        android:layout_alignBottom="@+id/b1"
+        android:layout_toLeftOf="@+id/w1"
+        android:layout_toStartOf="@+id/w1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/octave"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+        -->
+
+    <Button
+        android:id="@+id/record"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:onClick="record"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/play"
+        android:layout_marginEnd="50dp"
+
+        android:text="Record"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:background="@drawable/recordbutton"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"/>
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Play Songs"
+        android:onClick="play"
+
+
+
+        android:textColor="#FFFFFF"
+        android:background="@drawable/playbutton"
+        android:textSize="30sp"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_marginEnd="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+
+
+</RelativeLayout>

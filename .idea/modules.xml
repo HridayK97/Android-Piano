@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MidiDriver-1.11/MidiDriver-1.11.iml" filepath="$PROJECT_DIR$/MidiDriver-1.11/MidiDriver-1.11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Virtualpiano.iml" filepath="$PROJECT_DIR$/Virtualpiano.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>

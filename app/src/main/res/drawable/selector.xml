@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/pressed"
+        android:paddingTop="10sp"></item>
+    <item android:drawable="@drawable/normal" android:layout_marginTop="50dp">
+    </item>
+</selector>

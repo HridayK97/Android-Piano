@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hriday.virtualpiano.recordings"
+    tools:layout_editor_absoluteY="25dp"
+    tools:layout_editor_absoluteX="0dp"
+    android:background="#000000">
+
+    <Button
+        android:id="@+id/record1"
+
+        android:text="Play Song 1"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:background="@drawable/playsongshape"
+        android:onClick="play1"
+        android:layout_marginLeft="45dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="26dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/record2"
+        android:text="Play Song 2"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:background="@drawable/playsongshape"
+        android:onClick="play2"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toBottomOf="@+id/record1"
+        android:layout_marginLeft="45dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/record3"
+        android:text="Play Song 3"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:background="@drawable/playsongshape"
+        android:onClick="play3"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toBottomOf="@+id/record2"
+        android:layout_marginLeft="45dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/record4"
+        android:text="Play Song 4"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:background="@drawable/playsongshape"
+        android:onClick="play4"
+        android:layout_marginRight="45dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="26dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/record5"
+        android:text="Play Song 5"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:background="@drawable/playsongshape"
+        android:onClick="play5"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toBottomOf="@+id/record4"
+        android:layout_marginRight="45dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/record6"
+        android:text="Play Song 6"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:background="@drawable/playsongshape"
+        android:onClick="play6"
+        android:layout_marginRight="45dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toBottomOf="@+id/record5" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textColor="#FFDD00"
+
+        android:textAlignment="center"
+        android:text="MY SONGS"
+        android:layout_marginLeft="179dp"
+        app:layout_constraintLeft_toLeftOf="@+id/record1"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp" />
+
+</android.support.constraint.ConstraintLayout>
